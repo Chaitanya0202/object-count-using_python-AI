@@ -33,7 +33,7 @@ cv2.drawContours(rgb, contours, -1, (0, 255, 0), 2)
 
 
 # Print the number of objects detected
-print("Coins in the image:", len(contours))
+print("Object in the image:", len(contours))
 
 # Display the processed image
 plt.imshow(rgb)
